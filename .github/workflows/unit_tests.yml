@@ -30,7 +30,7 @@ jobs:
         version: [12, 13, 14, 15, 16, 17, 18]
         cxx_standard: [20]
         stdlib: [libstdc++, libc++]
-        build_type: [Debug]
+        build_type: [Debug, Release]
         include:
           - compiler: clang
             cc: "clang"
